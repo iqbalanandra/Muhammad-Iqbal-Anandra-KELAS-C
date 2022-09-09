@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int A;
+	cout<<"Tulis Angka Pertama	:";
+	cin>>A;
+	
+	int B;
+	cout<<"Tulis Angka Kedua	:";
+	cin>>B;
+	
+	
+	int sum1=A+B;
+	int sum2=A-B;
+	int sum3=A*B;
+	int sum4=A/B;
+	int sum5=A%B;
+	
+	cout<<sum1<<endl<<sum2<<endl<<sum3<<endl<<sum4<<endl<<sum5;
+	
+	
+	return 0;
+	
+}
